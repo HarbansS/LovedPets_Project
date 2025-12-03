@@ -1,12 +1,13 @@
 html, body{
     height: 1500px;
+    background-color: #e6e6e6;
 }
 
 h1{
 font-variant: small-caps;
 text-shadow: 2px 2px 2px #000000;
 color: #797979;
-font-size: 2.5em;
+font-size: 2.5-em;
 font-family: monospace;
 font-weight: bold;
 }
@@ -24,6 +25,7 @@ b{
 font-family: cursive;
 font-size: 1em;
 }
+
 
 .title{
     font-family: 'Courier New', Courier, monospace;
@@ -73,6 +75,15 @@ footer{
     border-radius: 25px;
     display: flex;
     justify-content: center; 
+    align-items: center;
+}
+.window{
+    height: 350px;
+    width: 50%;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 5px solid #B5672F;
+    border-radius: 25px;
     align-items: center;
 }
 
