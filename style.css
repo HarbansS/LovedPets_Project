@@ -1,0 +1,82 @@
+html, body{
+    height: 1500px;
+}
+
+h1{
+font-variant: small-caps;
+text-shadow: 2px 2px 2px #000000;
+color: #797979;
+font-size: 2.5em;
+font-family: monospace;
+font-weight: bold;
+}
+h2{
+font-size: 3em;
+font-family: monospace;
+font-weight: bold;
+}
+p{
+font-family: cursive;
+font-weight: 600;
+font-size: 1em;
+}
+b{
+font-family: cursive;
+font-size: 1em;
+}
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.banner{
+    height: 150px;
+    width: 100%;
+    position: relative;
+    background-color: #B5672F;
+    color: #000000;
+    border: 2px #000000;
+    border-color: #000000;
+    padding: 10px;
+    top: -10px;
+    right: 10px;
+}
+
+.logo{
+    position: absolute;
+    top: 35px;
+    right: 35px;
+}
+
+.petEntry{
+    background-color: #797979;
+
+}
+
+footer{
+    background-color: #797979;
+    position: relative;
+    bottom: 0px;
+    left: -5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.container{
+    height: 150px;
+    width: 80%;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 5px solid #B5672F;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+img{
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
